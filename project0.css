@@ -25,6 +25,9 @@ header{
     height: 500px;
     background-size: cover;
 }
+header a span img:hover{
+    transform: scale(85%);
+}
 .main_heading{
     color: white;
     font-weight: 700;
@@ -331,4 +334,24 @@ footer span{
     border-radius: 50%;
     border:3px solid grey;
     
+}
+@media only screen and (max-width: 768px) {
+    .joinnow {
+        position: static;
+        width: 100%;
+        text-align: center;
+        top: auto;
+        right: auto;
+        margin-top: 20px; /* Adjust the margin-top as needed */
+    }
+
+    .slidebar {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+
+    .slidebar li {
+        padding: 15px 0; /* Adjust padding for better spacing on smaller screens */
+    }
 }
